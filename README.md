@@ -39,7 +39,7 @@ TasteMirror is an AI-powered personality and culture analysis platform that help
 <img width="489" height="799" alt="Ekran görüntüsü 2025-07-29 013118" src="https://github.com/user-attachments/assets/77389b3d-43a0-4647-ae8b-85fe381573f1" />
 
 ## Medium
--> https://medium.com/@erenari27/tastemirror-discovering-your-cultural-twin-with-ai-and-qloo-9e1e4399cde8
+-> https://medium.com/@erenari27/tastemirror-discover-your-cultural-twin-with-ai-and-qloo-8c6c0fb665f6
 ---
 
 ## 🔧 Local Setup
