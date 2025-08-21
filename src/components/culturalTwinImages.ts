@@ -46,7 +46,30 @@ const culturalTwinImages: Record<string, string> = {
   "Tom Hanks":"https://upload.wikimedia.org/wikipedia/commons/e/e7/Tom_Hanks_at_the_Elvis_Premiere_2022.jpg",
   "Emma Stone":"https://upload.wikimedia.org/wikipedia/commons/9/9b/Emma_Stone_at_the_2025_Cannes_Film_Festival_03_%28cropped%29.jpg",
   "Bruce Springsteen":"https://upload.wikimedia.org/wikipedia/commons/f/f2/SpringsteenCardiff050524_%28138_of_166%29_%2853704146372%29_%28cropped%29.jpg",
-  "Elton John":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg/640px-EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg"
+  "Elton John":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg/640px-EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+  "Ryan Gosling":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg/250px-GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg",
+  
+  // Popular celebrities that often come from AI matching
+  "Brad Pitt": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Brad_Pitt_2019_by_Glenn_Francis.jpg",
+  "Jennifer Lawrence": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jennifer_Lawrence_at_the_83rd_Academy_Awards.jpg",
+  "Dua Lipa": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dua_Lipa_Cannes_2023.jpg/250px-Dua_Lipa_Cannes_2023.jpg",
+  "Ed Sheeran": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+  "Ariana Grande": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ariana_Grande_Grammys_Red_Carpet_2020.png",
+  "Justin Bieber": "https://upload.wikimedia.org/wikipedia/commons/d/da/Justin_Bieber_in_2015.jpg",
+  "The Weeknd": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Abel_%22The_Weeknd%22_Tesfaye.jpg",
+  "Post Malone": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Post_Malone_2018.jpg/250px-Post_Malone_2018.jpg",
+  "Doja Cat": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Doja_Cat_2024.jpg/250px-Doja_Cat_2024.jpg",
+  "Olivia Rodrigo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Olivia_Rodrigo_2023.jpg",
+  "Bad Bunny": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bad_Bunny_2023.jpg/250px-Bad_Bunny_2023.jpg",
+  "Kendrick Lamar": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pulitzer_Prize_winner_Kendrick_Lamar_%28cropped%29.jpg",
+  "Travis Scott": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Travis_Scott_%E2%80%93_Openair_Frauenfeld_2019_06.jpg/250px-Travis_Scott_%E2%80%93_Openair_Frauenfeld_2019_06.jpg",
+  "Cardi B": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cardi_B_2018.png",
+  "Megan Thee Stallion": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Megan_Thee_Stallion_2021.jpg/250px-Megan_Thee_Stallion_2021.jpg",
+  "Lil Nas X": "https://upload.wikimedia.org/wikipedia/commons/0/01/Lil_Nas_X_2021.jpg",
+  "Roddy Ricch": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Roddy_Ricch_2020.jpg/250px-Roddy_Ricch_2020.jpg",
+  "BlackPink": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/BLACKPINK_for_Marie_Claire_Korea_2018.jpg/250px-BLACKPINK_for_Marie_Claire_Korea_2018.jpg",
+  "Michael Jordan": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
+  "Lana Del Rey": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lana_Del_Rey_Cannes_2023.jpg/250px-Lana_Del_Rey_Cannes_2023.jpg"
 };
 
 // Get celebrity image with fallback to initials

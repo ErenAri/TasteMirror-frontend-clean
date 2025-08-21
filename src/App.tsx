@@ -102,13 +102,13 @@ function App() {
 
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 120000); 
+      const timeoutId = setTimeout(() => controller.abort(), 20000); // Reduced to 20 seconds
 
-      setTimeout(() => setLoadingStage(currentStages.analyzing), 2000);
+      setTimeout(() => setLoadingStage(currentStages.analyzing), 500); // Faster transitions
 
-      setTimeout(() => setLoadingStage(currentStages.cultural), 4000);
+      setTimeout(() => setLoadingStage(currentStages.cultural), 1000); // Faster transitions
 
-      setTimeout(() => setLoadingStage(currentStages.finalizing), 6000);
+      setTimeout(() => setLoadingStage(currentStages.finalizing), 1500); // Faster transitions
       
       const requestBody = {
         ...formData,
@@ -883,7 +883,7 @@ function App() {
               <svg className="relative z-10 w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
-              <span className="relative z-10">{t('try_another_cultural_twin')}</span>
+              <span className="relative z-10">🎲 {t('try_another_cultural_twin')}</span>
             </button>
 
             <button
